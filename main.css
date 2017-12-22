@@ -1,113 +1,251 @@
-html body {
-  <!-font-family: !-sans-serif;->
-  margin: 10%;
-  width: 100%;
-  height: 100%;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-size: 80px;
-}
-  hr.symbol {
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color #333;
-    text-align: center;
-  }
-
-
-p {
-  max-width: 65%;
-  min-width: 500px;
-}
-
-h3 {
-  font-family:elementary;
-  text-align:center;
-  font-size: 3.3em;
-
-
-}
-
-span.something {
-
+@font-face {
+font-family: "unity";
+src: url("fonts/Adidas_Unity.ttf");
 }
 
 
-table{
-  font size: 2.2rem;
+
+
+.class{
+
+width :20px;
+height :20px;
+margin-left: 5px;
+}
+
+ h1{
+	display: block;
+margin-top: 100px;
+
+	font-family: "unity";
+	font-size: 60px;
+	text-align: center;
 }
 
 
-h4 {
-  display:inline;
-   float:left;
+
+.Heading{
+	background-color:
+	border: 20px
+	color: white;
+display: inline;
+
+margin-left: 100px;
+margin-right: 100px;
+
+
 }
-h5 {
-  display:inline;
-   float:right;
+
+.login{
+	float: right;
+}
+.login a{
+background-color: black;
+	display: block;
+	color: white;
+	margin-right: 30px;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 
-span.stupid {
+.login a:hover{
+	background-color: green;
+}
+
+}
+
+.dumb{
+	width: 15px;
+	height:15px;
+	margin-bottom: 500px;
+
+}
+
+body {
+	background-color:d2b48c;
+	height: 100%;
+
+
+	width: 100%;
+}
+
+
+.first{
+  font-family:"unity";
+  font-weight:normal;
+
+  font-size: 28px;
   color:black;
-margin-left: 5%;
+  text-align: center;
+}
+
+h2{
+	color: white;
+  font-size: 58px;
+}
+
+.catelog{
+  background-color: #06446b;
+  background-image:url;
+}
+.left{
+  float left;
 }
 
 
-
-
-
-
-hr {
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+.left a{
+  background-color: black;
+  	display: block;
+  	color: white;
+  	margin-right: 350px;
+    margin-left: 350px;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
 }
-hr:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.9em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: <a href="brown.jpg"/a>;
+.left a:hover{
+	background-color: green;
+}
+.right{
+  float right;
+}
+ .right a{
+   background-color: black;
+   	display: block;
+   	color: white;
+   	margin-right: 350px;
+    margin-left: 350px;
+   	text-align: center;
+   	padding: 14px 16px;
+   	text-decoration: none;
+ }
+ .right a:hover{
+   background-color: green;
+ }
+
+.down a{
+  background-color: black;
+  	display: block;
+  	color: white;
+    margin-right: 350px;
+    margin-left: 350px;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+.down a:hover{
+	background-color: green;
+}
+li{
+margin-right: 30px;
+
+	border-right: 10px solid #bbb;
+	float: left
+}
+li a {
+
+	display: block;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-right: 40px;
+}
+ li a:hover{
+	 background-color: green;
+
+}
+ul{
+	postion: fixed;
+	top:0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background-color: white;
+}
+.middle{
+	background-color: gray;
+}
+.m{
+	text-align: center;
+}
+.r{
+	text-align: right;
 }
 
 
+/* End of navigation tabs */
+/* f f5deb3*/
+header{
+  /* f f5deb3*/
+	background-color:f5deb3;
+	font-family: sans-serif;
+	margin: 30px;
+	font-size: 30px;
+	text-align: center;
+	padding: 25px;
+}
+.poo{
+	float: left;
+}
+.pictures{
+	align-items: center;
+background-color:#f5deb3;
+}
 
+.pic{
+align:center;
 
-div {
-  padding-right: 30px;
-  height: 100%;
+display: inline;
+border-right: 100px;
+	float:left;
+
+}
+.btn.btn-primary {
+  border-radius: 100px;
+  border: 10px;
+  color: white;
+  text-shadow: none;
+  background-color: black;
+  border-color: white;
+
+}
+.btn.btn-primary:hover{
+  background-color:green;
+}
+
+section .row img{
+  margin: 0 0 30px;
   width: 100%;
 }
-
-video {
-  background-color: #000000;
-  border: 2px solid black;
+.col-md-6{
+  margin: 0 0 30px;
+}
+.col-md-4{
+  margin: 0 0 30px
 }
 
-.container {
+footer {
+
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  background-color:d2b48c;
   display: flex;
+  justify-content: flex-end;
 }
 
-.main {
-  padding-left: 30px;
-  min-width: 75%;
+footer ul {
+  list-style: none;
 }
 
-.nav {
-  background-color: #FFEE00;
-  max-width: 25%;
-  min-width: 140px;
-  flex: 1;
-}
-
-.nav h1 {
-  padding-left: 20px;
+footer li img {
+  width: 32px;
+  height: 32px;
 }
